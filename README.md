@@ -8,6 +8,11 @@ The challenges should be solved in a language of your preference but either C#, 
 
 If you have any questions or need any help with the challenges, don't hesitate to reach out to challenge@bluefragments.com.
 
+## Run my solutions
+
+In the terminal type `node filename.js` in solution
+challenge-103 open in your browser type something in the input see the result in the web console.
+
 ## challenge-101
 
 Create a function that takes an array of numbers and return both the minimum and maximum numbers, in that order.
@@ -15,7 +20,7 @@ Create a function that takes an array of numbers and return both the minimum and
 Examples:  
 FindMinMax([1, 2, 3, 4, 5]) ➞ [1, 5]  
 FindMinMax([2334454, 5]) ➞ [5, 2334454]  
-FindMinMax([1]) ➞ [1, 1]  
+FindMinMax([1]) ➞ [1, 1]
 
 ## challenge-102
 
@@ -24,7 +29,7 @@ Create a function that accepts a string of a person's first and last name and re
 Examples:  
 NameShuffle("Donald Trump") ➞ "Trump Donald"  
 NameShuffle("Rosie O'Donnell") ➞ "O'Donnell Rosie"  
-NameShuffle("Seymour Butts") ➞ "Butts Seymour"  
+NameShuffle("Seymour Butts") ➞ "Butts Seymour"
 
 ## challenge-103
 
@@ -34,7 +39,7 @@ Examples:
 SameCase("hello") ➞ true  
 SameCase("HELLO") ➞ true  
 SameCase("Hello") ➞ false  
-SameCase("ketcHUp") ➞ false  
+SameCase("ketcHUp") ➞ false
 
 ## challenge-104
 
@@ -44,7 +49,7 @@ Examples:
 IsIsogram("Algorism") ➞ true  
 IsIsogram("PasSword") ➞ false  
 // Not case sensitive.  
-IsIsogram("Consecutive") ➞ false  
+IsIsogram("Consecutive") ➞ false
 
 ## challenge-105
 
@@ -52,8 +57,8 @@ Create a function that takes a number (from 1 to 12) and returns its correspondi
 
 Examples:  
 MonthName(3) ➞ "March"  
-MonthName(12) ➞ "December"   
-MonthName(6) ➞ "June"  
+MonthName(12) ➞ "December"  
+MonthName(6) ➞ "June"
 
 ## challenge-106
 
@@ -62,4 +67,4 @@ Create a function that takes a string and replaces each letter with its appropri
 Examples:  
 AlphabetIndex("Wow, does that work?") ➞ "23 15 23 4 15 5 19 20 8 1 20 23 15 18 11"  
 AlphabetIndex("The river stole the gods.") ➞ "20 8 5 18 9 22 5 18 19 20 15 12 5 20 8 5 7 15 4 19"  
-AlphabetIndex("We have a lot of rain in June.") ➞ "23 5 8 1 22 5 1 12 15 20 15 6 18 1 9 14 9 14 10 21 14 5"  
+AlphabetIndex("We have a lot of rain in June.") ➞ "23 5 8 1 22 5 1 12 15 20 15 6 18 1 9 14 9 14 10 21 14 5"
